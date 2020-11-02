@@ -26,3 +26,4 @@ while j< x:
      if j+1==(x):
          print(y,end=" ")
          j=j+1
+         
