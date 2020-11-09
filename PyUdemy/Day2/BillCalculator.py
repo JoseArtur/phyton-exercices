@@ -1,0 +1,5 @@
+print("Welcome to the Bill Calculator")
+bill = float(input("What was the total bill?€ "))
+perc = float(input("What is the percentage tip would you like to give?10,12 or15 "))
+person = float(input("How many people to split the bill? "))
+print(f"Each person should pay €{round((bill+(bill*(perc/100)))/person,2)}")
