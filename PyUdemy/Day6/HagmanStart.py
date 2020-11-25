@@ -10,8 +10,11 @@ chosen_word=random.choice(word_list)
 guess=input("Choose a letter: ").lower()
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 print(chosen_word)
+display=[]
 for i in chosen_word:
+    display.append("_")
     if guess==i:
         print("Correct")
     else:
         print("Wrong")
+print(display)
