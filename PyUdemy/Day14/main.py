@@ -45,19 +45,12 @@ def game(random,Brandom,score,current):
     #Here I verifie if the current status is to move on or to stop the game
     print(current)
     if current==False:
-        print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
         return 1
     #Now random become Brandom
     Brandom =random
     if random==Brandom:
         random = data.data[randint(0,49)]
         
-    game(random,Brandom,score,current)
-    
-    
-    
-    
-    
-    
+    game(random,Brandom,score,current)    
 print(logo)
 game(random,Brandom,score,current)
